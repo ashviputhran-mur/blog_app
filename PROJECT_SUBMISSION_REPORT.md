@@ -230,8 +230,29 @@ To demonstrate the application to your evaluators or mentors:
    * Access the **Dashboard** to view global platform metrics (2,000+ articles, drafts, total likes).
    * Notice that Administrator has master authority to edit any article or moderate community discussions with tombstone notices.
 
-7. **Execute Automated E2E Test Suite (48/48 Passing):**
+7. **Execute Automated E2E Test Suite (49/49 Passing):**
    ```bash
    node test_runner.js
    ```
+
+---
+
+## 8. Git Repository & Submission Details
+
+* **Repository Remote URL:** [https://github.com/ashviputhran-mur/blog_app.git](https://github.com/ashviputhran-mur/blog_app.git)
+* **Default Branch:** `main`
+* **Local Working Tree:** Clean (`nothing to commit, working tree clean`)
+* **Atomic Commits:**
+  * `8d723d8` — `docs: finalize project submission report and database state`
+  * `76bf362` — `chore: add client gitignore`
+  * `cd43c00` — `chore: add client public assets, lockfiles, configuration, and pre-seeded database`
+  * `b4c1260` — `docs: complete technical report, implementation plan, development plan, and README`
+  * `91c206e` — `test: add 49 positive/negative automated E2E tests and database audit suite`
+  * `8e2d12d` — `feat: implement React frontend with design system, feed, reader, discussion, and author studio`
+  * `c30afcd` — `feat: implement backend REST API, SQLite schema, JWT middleware, and 2000-article seed`
+  * `a997a8a` — `feat: initialize full-stack architecture, dependencies, and configuration`
+* **Push Command:**
+  ```bash
+  git push -u origin main
+  ```
 
